@@ -17,6 +17,7 @@
 
 	<name>Cytokinesis Centrale</name>
 	<description>A Maven project implementing an ImageJ 1.x plugin.</description>
+	<url>http://mycompany.com/imagej/process-pixels/</url>
 	<inceptionYear>2017</inceptionYear>
 	<organization>
 		<name>Centrale Pasteur</name>
