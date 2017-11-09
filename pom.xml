@@ -12,16 +12,14 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.mycompany</groupId>
-	<artifactId>Process_Pixels</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<groupId>com.CentralePasteur</groupId>
+	<version>0.1.0</version>
 
-	<name>Process Pixels</name>
+	<name>Cytokinesis Centrale</name>
 	<description>A Maven project implementing an ImageJ 1.x plugin.</description>
-	<url>http://mycompany.com/imagej/process-pixels/</url>
-	<inceptionYear>2012</inceptionYear>
+	<inceptionYear>2017</inceptionYear>
 	<organization>
-		<name>My Company</name>
+		<name>Centrale Pasteur</name>
 		<url>http://mycompany.com/</url>
 	</organization>
 	<licenses>
@@ -112,4 +110,5 @@
 			<artifactId>ij</artifactId>
 		</dependency>
 	</dependencies>
+	<artifactId>cytokinesis</artifactId>
 </project>

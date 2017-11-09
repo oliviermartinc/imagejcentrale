@@ -23,6 +23,7 @@ import ij.process.ImageProcessor;
  */
 public class Process_Pixels implements PlugInFilter {
 	protected ImagePlus image;
+	protected ImagePlus image1;
 
 	// image property members
 	private int width;
@@ -60,7 +61,7 @@ public class Process_Pixels implements PlugInFilter {
 
 		// default value is 0.00, 2 digits right of the decimal point
 		gd.addNumericField("value", 0.00, 2);
-		gd.addStringField("name", "John");
+		gd.addStringField("name", "Olivier");
 
 		gd.showDialog();
 		if (gd.wasCanceled())
