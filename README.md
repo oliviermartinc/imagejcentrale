@@ -1,4 +1,4 @@
-### Cytokinesis Plugin: plugin made in collaboration with CentraleSupelec and Pasteur Institute
+### Cytokinesis Plugin: ImageJ plugin made in collaboration with CentraleSupelec and Pasteur Institute
 
 
 This is Maven project implementing an ImageJ 1.x plugin for an Institut Pasteur project.
