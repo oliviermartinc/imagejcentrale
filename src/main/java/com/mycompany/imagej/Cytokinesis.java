@@ -175,9 +175,8 @@ public class Cytokinesis extends PlugInFrame implements ij.plugin.PlugIn, Action
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
 		ImagePlus imp = WindowManager.getCurrentImage();
-		//IJ.log("tesss");
-		position_X = e.getX();
-		position_Y = e.getY();
+		position_X = (int) imp.getRoi().getXBase();
+		position_Y = (int) imp.getRoi().getYBase();
 		slice_1 = imp.getCurrentSlice();
 		button_2.setEnabled(true);
 		button_1.setEnabled(false);
